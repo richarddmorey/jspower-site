@@ -13,6 +13,8 @@ For now the only test/design supported is the independent samples t test, as a p
 
 If you want to compile this project, grab the repository and follow the directions for [jekyll-vue-template](https://github.com/Splode/jekyll-vue-template). 
 
+[![Image of interface](https://richarddmorey.github.io/jspower-site/img/interface_dec2020.png)](https://richarddmorey.github.io/jspower-site/)
+
 **[Click here to try it out](https://richarddmorey.github.io/jspower-site/)**
 
 ## Components
