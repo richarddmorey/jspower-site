@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Power</h2>
     <vs-button
       @click="settingsActive=!settingsActive"
       color="primary"

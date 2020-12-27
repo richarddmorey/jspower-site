@@ -18,6 +18,15 @@ If you want to compile this project, grab the repository and follow the directio
 ### Power curve (chart)
 
 
+The power chart is the main interface to the power analysis. It is designed with specific statistical affordances in mind. In particular, it is designed to highlight that:
+
+* power is a curve, not a single value
+* the "null" (0 difference) isn't the only thing we can test (ie, equivalence testing needn't be thought of separately)
+* there are several interesting points along the curve, not just one
+* confidence/"precision" is tightly linked with the concept of power
+
+#### How the interface works
+
 Handles: 
 
 * Bottom (white) handle: Moves up and down to manipulate the Type I error rate of the test (α, or "size")
