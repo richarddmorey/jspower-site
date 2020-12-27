@@ -1,0 +1,61 @@
+{
+  "name": "jspower",
+  "version": "0.1.0",
+  "description": "A prototype power analysis interface using Vue.js, d3.js, and lib-r-math",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "jekyll:watch": "bundle exec jekyll build --watch --incremental",
+    "jekyll:build": "bundle exec jekyll build",
+    "serve": "browser-sync start --config browser-sync.js",
+    "start": "npm run jekyll:watch & npm run serve",
+    "watch": "cross-env NODE_ENV=development webpack --watch"
+  },
+  "keywords": [
+    "jekyll",
+    "vue",
+    "ssg",
+    "statistics"
+  ],
+  "author": "Richard D. Morey",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^6.4.2",
+    "d3": "^6.2.0",
+    "eslint-plugin-vue": "^7.3.0",
+    "lib-r-math.js": "^1.0.88",
+    "lodash": "^4.17.20",
+    "vue": "^2.6.11",
+    "vue-input-autowidth": "^1.0.10",
+    "vue-slider-component": "^3.2.9",
+    "vuesax": "^3.12.2",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.12",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.3.1",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.11"
+  }
+}
