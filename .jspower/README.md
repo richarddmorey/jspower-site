@@ -1,1 +1,0 @@
-Until I make a node module out of `jspower`, you can manually drop the latest version of `jspower.js` in this folder. Obtain it here: [jspower on github](https://github.com/richarddmorey/jspower/tree/master/dist).

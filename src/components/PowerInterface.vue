@@ -86,7 +86,7 @@
 </template>
 
 <script>
-import * as pwr from '../../.jspower/jspower.js'
+import * as pwr from 'jspower'
 import PowerChart from './PowerChart'
 import PowerText from './PowerText'
 import PowerRcode from './PowerRcode'
